@@ -1,5 +1,4 @@
 <?php
-dd(1);
 $subject = 'You Got Message'; // Subject of your email
 $to = 'ajmalbacker5@gmail.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
@@ -10,7 +9,6 @@ $phone = $_REQUEST['phone'];
 $msg = $_REQUEST['message'];
 
 $email_from = $name.'<'.$email.'>';
-echo $email_from;
 $headers = "MIME-Version: 1.1";
 $headers .= "Content-type: text/html; charset=iso-8859-1";
 $headers .= "From: ".$name.'<'.$email.'>'."\r\n"; // Sender's E-mail

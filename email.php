@@ -1,4 +1,5 @@
 <?php
+dd(1);
 $subject = 'You Got Message'; // Subject of your email
 $to = 'ajmalbacker5@gmail.com';  //Recipient's E-mail
 $emailTo = $_REQUEST['email'];
